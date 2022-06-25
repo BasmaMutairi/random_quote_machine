@@ -1,0 +1,73 @@
+@media only screen and (max-width:60px){
+  .buttons {
+    flex-direction: column-reverse;
+    #new-quote{
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.App {
+  text-align: center;
+  #quote-box{
+    padding: 25px;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    
+
+    #text{
+      margin-bottom: 0px;
+      padding: 10px;
+      font-family: 'Fira Code',monospace;
+      #quote-icon{
+        margin-right: 10px;
+      }
+    }
+
+    #author{
+      margin-top: 50px;
+      text-align: end;
+      font-family: 'Fira Code',monospace;
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: space-between;
+      min-height: 10%;
+      #tweet-quote{
+        max-width: 50px;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        border-radius: 10px;
+        padding: 10px;
+        color:white;
+        border: none;
+        align-self: center;
+      }
+    }
+    #new-quote{
+      float: right;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      font-size: 17px;
+    }
+  }
+
+  .App-header {
+    padding: 10%;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+}
+
